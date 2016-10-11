@@ -1,0 +1,24 @@
+html {
+	background-color: white;
+	font-family: 'Abhaya Libre', serif; 
+}
+
+body {
+	font-size: 15px;
+}
+
+h1, h2 {
+	font-size: 30px;
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+#top {
+	background-color: #E7EAEE;
+	margin: -20px;
+	padding: -100px;
+}
