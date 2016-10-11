@@ -1,15 +1,21 @@
 html {
-	background-color: white;
+	background-image: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-2.jpg');
 	font-family: 'Abhaya Libre', serif; 
+	background-size: 1920px 1200px;
 }
 
 body {
+	width: 900px;
 	font-size: 15px;
+	margin: 0 auto;
+	padding: 15px 20px 20px 20px;
+	background-color: transparent;
 }
 
 h1, h2 {
 	font-size: 30px;
 	text-align: center;
+	text-shadow: 1px 1px 2px black;
 }
 
 img {
@@ -19,6 +25,10 @@ img {
 
 #top {
 	background-color: #E7EAEE;
-	margin: -20px;
-	padding: -100px;
+	margin: -35px;
+	padding: -1100px;
+}
+
+p {
+	text-align: center;
 }
