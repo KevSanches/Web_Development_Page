@@ -61,3 +61,8 @@ p#Selectors {
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   	filter: alpha(opacity=1);
 }
+
+.Selected {
+	font-size: 25px;
+	font-weight: bold;
+}
