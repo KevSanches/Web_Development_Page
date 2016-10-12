@@ -62,7 +62,12 @@ p#Selectors {
   	filter: alpha(opacity=1);
 }
 
-.Selected {
+p#Selectors span.Selected {
 	font-size: 25px;
 	font-weight: bold;
+}
+
+.none {
+	font-size: 20px;
+	font-weight: normal;
 }
