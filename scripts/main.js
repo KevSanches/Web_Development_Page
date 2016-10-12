@@ -1,18 +1,29 @@
-var html_dog = document.getElementById('HTMLDog');
-var mdn_mozilla = document.getElementById('MDN');
-var top = document.getElementById("TOP");
-var html_dog_image = document.getElementById("HTMLDog_Image");
-var mdn_image = document.getElementById("MDN_Image");
-var top_image = document.getElementById("TOP_Image");
+var html_dog = document.getElementById('html_dog');
+var mdn_mozilla = document.getElementById('mdn');
+var top_selection = document.getElementById("the_odin_project");
+var html_dog_image = document.getElementById("html_dog_image");
+var mdn_image = document.getElementById("mdn_image");
+var top_image = document.getElementById("the_odin_project_image");
 var last_selected = ''
 
+function wipe_selections() {
+	html_dog.setAttribute('class', 'none');
+	top_selection.setAttribute('class', 'none');
+	mdn_mozilla.setAttribute('class', 'none');
+
+}
+
 html_dog.onclick = function() {
-	html_dog.setAttribute('class', 'Selected');
-	top.removeAttribute("class");
-	last_selected = 'html_dog';
+	wipe_selections();
+	html_dog.setAttribute('class', 'selected');
 }
 
 mdn_mozilla.onclick = function() {
-	mdn_mozilla.setAttribute('class', 'Selected');
-	last_selected.removeAttribute("class");
+	wipe_selections();
+	mdn_mozilla.setAttribute('class', 'selected');
+}
+
+top_selection.onclick = function() {
+	wipe_selections();
+	top_selection.setAttribute('class', 'selected');
 }

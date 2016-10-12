@@ -29,23 +29,23 @@ p {
 	text-align: center;
 }
 
-p#Selectors {
+p#selectors {
 	text-align: center;
 }
 
-#Selectors span {
+#selectors span {
 	padding-right: 20px;
 	cursor: pointer;
 }
 
-#Images {
+#images {
 	position: relative;
 	margin: 0 auto 10px;
 	height: 400px
 	width: 400px;
 }
 
-#Images img {
+#images img {
 	position: absolute;
 	left: 0;
 	height: 300px;
@@ -56,13 +56,13 @@ p#Selectors {
 	filter: alpha(opacity = 0);
 }
 
-#Images img.opaque {
+#images img.opaque {
 	opacity: 1;
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   	filter: alpha(opacity=1);
 }
 
-p#Selectors span.Selected {
+p#selectors span.selected {
 	font-size: 25px;
 	font-weight: bold;
 }
