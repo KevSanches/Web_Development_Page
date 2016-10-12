@@ -1,5 +1,5 @@
 html {
-	background-image: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-2.jpg');
+	background: white url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-2.jpg') no-repeat top right;
 	font-family: 'Abhaya Libre', serif; 
 	background-size: 1920px 1200px;
 }
@@ -19,11 +19,6 @@ h1, h2 {
 	text-shadow: 1px 1px 2px black;
 }
 
-img {
-	display: block;
-	margin: 0 auto;
-}
-
 #top {
 	background-color: rgba(126, 131, 140, 0.8);
 	margin: -35px;
@@ -32,4 +27,37 @@ img {
 
 p {
 	text-align: center;
+}
+
+p#Selectors {
+	text-align: center;
+}
+
+#Selectors span {
+	padding-right: 20px;
+	cursor: pointer;
+}
+
+#Images {
+	position: relative;
+	margin: 0 auto 10px;
+	height: 400px
+	width: 400px;
+}
+
+#Images img {
+	position: absolute;
+	left: 0;
+	height: 300px;
+	width: 300px;
+	transition: opacity 1s ease-in-out;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity = 0);
+}
+
+#Images img.opaque {
+	opacity: 1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  	filter: alpha(opacity=1);
 }
