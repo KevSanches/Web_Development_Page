@@ -39,14 +39,12 @@ p#selectors {
 }
 
 #images {
-	position: relative;
-	margin: 0 auto 10px;
+
 	height: 400px
 	width: 400px;
 }
 
 #images img {
-	position: absolute;
 	left: 0;
 	height: 300px;
 	width: 300px;
