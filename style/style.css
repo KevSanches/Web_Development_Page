@@ -30,7 +30,8 @@ p {
 }
 
 p#selectors {
-	padding-top: 450px;
+	padding-top: 475px;
+	padding-bottom: 30px;
 	text-align: center;
 }
 

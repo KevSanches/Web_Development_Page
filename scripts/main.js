@@ -13,8 +13,6 @@ function wipe_selections() {
 	top_image.setAttribute('class', 'none');
 	mdn_mozilla.setAttribute('class', 'none');
 	mdn_image.setAttribute('class', 'none');
-
-
 }
 
 html_dog.onclick = function() {
